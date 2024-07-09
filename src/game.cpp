@@ -5,14 +5,12 @@ Game::Game()
     InitAudioDevice();
     music=LoadMusicStream("src/music.ogg");
     eat=LoadSound("src/eat.mp3");
-    wall=LoadSound("src/wall.mp3");
     PlayMusicStream(music);
 }
 
 Game::~Game()
 {
     UnloadMusicStream(music);
-    UnloadSound(wall);
     UnloadSound(eat);
     CloseAudioDevice();
 }
@@ -87,7 +85,6 @@ void Game::Collisions()
 
 void Game::GameOver()
 {
-    PlaySound(wall);
     gameOver = true;
 }
 

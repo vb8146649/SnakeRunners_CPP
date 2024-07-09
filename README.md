@@ -1,58 +1,39 @@
-# SpaceInvaders_CPP
+# SnakeRunners_CPP
 
-Welcome to my Space Invaders game! This is a classic arcade space shooter game created using C++ and the Raylib library. The project is designed to help beginners get started with C++ programming and game development.
+## Introduction
 
-## About the Game
+**Snake Runner** is a recreation of the classic Snake game, developed entirely in C++ using the Raylib library. This project showcases fundamental C++ concepts such as classes, inheritance, modularity, and the integration of graphics and audio. It serves as a stepping stone for anyone looking to dive into game development with C++.
 
-This Space Invaders game replicates the classic arcade game where the player controls a spaceship at the bottom of the screen, shooting upwards to destroy waves of descending aliens. The objective is to score as many points as possible by eliminating all the aliens before they reach the bottom of the screen.
+## Screenshot
+<img src="" alt="snakerunner_preview" width=300 height=300>
 
-<img src="https://github.com/vb8146649/SpaceInvaders_CPP/blob/main/src/preview.png" alt="SpaceInvader_preview" width=350 height=350>
+## Features
+- **Classic Gameplay**: Navigate the snake to eat food and grow longer.
+- **Keyboard Controls**: Use arrow keys to control the snake's direction.
+- **Sound Effects**: Enjoy sound effects for eating food and hitting walls.
+- **Game Over State**: Clear indication when the game ends.
 
-## Getting Started
-
-To download and run this project, follow these steps:
+## How to Download and Run
 
 ### Prerequisites
+- Ensure you have [Raylib](https://www.raylib.com/) installed on your system.
 
-- Ensure you have a C++ compiler (like `g++`) installed.
-- Ensure you have the Raylib library installed.
-
-### Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/vb8146649/SpaceInvaders_CPP.git
-    cd SpaceInvaders_CPP
-    ```
-
-2. Compile the game:
-    - Make sure that you `copy` the task.json in your `vscode` and press `F5`.
-
-
-3. Run the game:
-    - The Game shall automatically starts after following the second step if it didn't , Start it manually by running the main.exe file created after Compiling.
+### Clone the Repository
+```bash
+git clone https://github.com/vb8146649/SnakeRunners_CPP
+cd SnakeRunners_CPP
+```
+- Open the Repo in`vscode` and press `F5`. Make sure to Update the `task.json`.
 
 ## Controls
-
-- **Arrow Keys**: Move the spaceship left and right.
-- **Arrow UP**: Shoot bullets.
-- **Esc**: Exit the game.
+**Arrow Keys**: Control the direction of the snake.
+**AnyKey**: Reset the game after a game over.
 
 ## Learning Objectives
+### This project was developed to achieve the following learning goals:
 
-This is my second project, and I am still learning. The primary goals for creating this game were:
-
-- To understand the basics of C++ programming.
-- To learn about classes and inheritance.
-- To practice code modularity.
-- To add music and keyboard interactions.
-- To create graphics in C++.
-
-## Conclusion
-
-This project serves as a basic and easy introduction to C++ projects. It was chosen to help learn and understand the fundamental concepts of game development and C++ programming. It is my second project overall in C++. I hope you enjoy playing it as much as I enjoyed making it!
-
----
-
-*Note: Replace `path/to/game_screenshot.png` with the actual path to your screenshot image.*
-# SnakeRunners_CPP
+**Classes and Inheritance**: Understanding how to structure a game using object-oriented programming.
+**Code Modularity**: Breaking down the game logic into manageable modules.
+**Graphics in C++**: Learning how to integrate graphics using Raylib.
+**Audio Integration**: Adding sound effects to enhance the gaming experience.
+**Game Mechanics**: Implementing basic game mechanics like collision detection and scoring.

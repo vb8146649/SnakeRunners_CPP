@@ -5,7 +5,7 @@
 **Snake Runner** is a recreation of the classic Snake game, developed entirely in C++ using the Raylib library. This project showcases fundamental C++ concepts such as classes, inheritance, modularity, and the integration of graphics and audio. It serves as a stepping stone for anyone looking to dive into game development with C++.
 
 ## Screenshot
-<img src="" alt="snakerunner_preview" width=300 height=300>
+<img src="https://github.com/vb8146649/SnakeRunners_CPP/blob/main/image.png" alt="snakerunner_preview" width=300 height=300>
 
 ## Features
 - **Classic Gameplay**: Navigate the snake to eat food and grow longer.
